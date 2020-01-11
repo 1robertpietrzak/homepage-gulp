@@ -1,40 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
+<html lang="pl">
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+<body class="home">
+    <header class="nav__header">
+        <button class="home_miniNav--button home_miniNav--button--js">☰</button>
+        <nav class="home__nav home__nav--js">
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="flexbox.html"> Flexbox </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="https://github.com/1robertpietrzak/wtf"> Github </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="flexbox.html"> Flexbox </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="https://github.com/1robertpietrzak/wtf"> Github </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="flexbox.html"> Flexbox </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="https://github.com/1robertpietrzak/wtf"> Github </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="flexbox.html"> Flexbox </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="https://github.com/1robertpietrzak/wtf"> Github </a>
+            </li>
+            <li class="home__nav--item">
+                <a class="home__nav--description" href="#" onclick="promptt()"> Niespodzianka </a>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>
+                Robert Pietrzak - strona domowa
+            </h1>
+        </header>
+        <section class="home__about">
+            <h2 class="home__about--mainTitle">
+                Opis obrazu
+            </h2>
+            <div class="home__about--box">Co ten fronted</div>
+            <p class="home__about--paragraph">
+                Opis obrazu jest przedstawianiem świata widzianego przez artystę. Zadaniem autora opisu jest więc zarówno opisanie jego elementów, czyli zaprezentowania tematu obrazu, jak też sposobu przedstawienia tej rzeczywistości przez artystę. W zależności od tego,
+                co obraz przedstawia, wyróżnić możemy opis statyczny i dynamiczny. Pierwszy z nich dotyczy np. martwej natury, pejzażu, drugi zaś – scenki rodzajowej, np. połowu ryb. Autor opisu powinien w taki sposób opisać obraz, by czytelnik miał pełne
+                wyobrażenie tego, co obraz przedstawia. Dlatego opisując obraz należy wziąć po uwagę wszystkie tworzące go elementy
+            </p>
+        </section>
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <h1>Hello world - with simple PWA support!</h1>
+        <section class="home__pamietniczek">
+            <h2 class="home__pamietniczek--mainTitle">
+                Pamietniczek
+            </h2>
+            <div class="home_grid">
+                <section class="home__pamietniczek">
+                    <h3 class="home__pamietniczek--header">Jak stworzyc prawidłowego htmla</h3>
 
+                    <p class="home__pamiatniczek--paragraph">
+                        HTML (HyperText Markup Language) to język opisu strony. Dokument HTML jest plikiem tekstowym, który oprócz tekstu widocznego na stronie zawiera znaczniki zawierające polecenia dla przeglądarek klienta, opisują one wygląd i funkcje elementów strony web.
+                        Język HTML przechodził już wielokrotnie modyfikacje. Dodawane są nowe polecenia i funkcje. Specyfikacja HTML zmierza do tego, aby strony pisane w tym języku były tak samo prezentowane w różnych przeglądarkach i na różnych komputerach.
+                        Mimo standaryzacji, niektóre przeglądarki inaczej interpretują te same polecenia. Aby uniknąć błędów autorzy stron muszą zapoznać się z różnicami w składni. Opisy znaczników są tu: Tagi HTML Znajomość HTML-a jest potrzebna nawet
+                        wtedy, gdy tworzy się strony w edytorach graficznych, typu FrontPage. Edytor taki tworzy dokument HTML podobnie jak w Wordzie, można pisać tekst i osadzać obrazki bez wnikania w kod źródłowy. Jednak źródło HTML zawiera nadmiarowy
+                        kod, niepotrzebne elementy formatowania, co powoduje, że strona się wolno ładuje. Autor strony ma pełną możliwość edycji tylko na poziomie kodu źródłowego HTML. W FrontPage można się przełączyć, wybierając odpowiednią zakładkę
+                        HTML. Do edycji lepiej jest użyć gotowego edytora HTML z kolorowaniem składni. Programiści chętnie wybierają polski program Pajączek.
+                    </p>
+                </section>
+                <section class="home__pamietniczek">
+                    <h3 class="home__pamietniczek--header">
+                        Czy nagrywanie szkolenia to prosta sprawa?
+                    </h3>
+                    <p class="home__pamiatniczek--paragraph">
+                        Od czasu gdy pojawiły się techniczne możliwości ludzie utrwalają istotne chwile ze swojego życia na zdjęciach i pod postacią filmów. Obecnie technika jest tak zaawansowana, że przy pomocy zwykłych smartfonów można nagrywać i fotografować z dużo lepszymi
+                        parametrami, niż przy użyciu zaawansowanych i drogich sprzętów przed kilkunastu laty. Postęp w fotografii i nagrywaniu obrazów jest bardzo duży, widać to dobrze po parametrach urządzeń do tego służących. Co roku zwiększa się rozdzielczość
+                        nagrywanych filmów oraz matryc, oprogramowanie ma coraz bardziej wydajne algorytmy, więc i użytkownikom jest coraz prościej. Bardzo wiele osób wykorzystuje do tych celów smarfony, ograniczając się wtedy do noszenia jednego, wielofunkcyjnego
+                        urządzenia, za pomocą którego można telefonować, robić zdjęcia, kręcić filmy a w razie potrzeby też zagrać. Jeśli jednak ktoś będzie potrzebował sprzętu bardziej zaawansowanego, to również znajdzie spory jego wybór w elektronicznych
+                        sklepach.
+                    </p>
+                </section>
+                <section class="home__pamietniczek">
+                    <h3 class="home__pamietniczek--header home__pamietniczek--header-js">
+                        Modyfikacja DOM
+                    </h3>
+                </section>
+            </div>
+        </section>
+
+        <footer>
+            Strona domowa Roberta Pietrzaka. Powstała w ramach szkolenia WTF: Co ten frontend.
+        </footer>
+    </main>
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
