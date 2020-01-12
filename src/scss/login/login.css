@@ -1,0 +1,37 @@
+.authentication {
+    display: grid;
+    grid-template-columns: minmax(10px, 1fr) minmax(300px, 400px) minmax(10px, 1fr);
+    grid-template-rows: 1fr auto;
+}
+
+.authentication__form {
+    background: #E5E7E6;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #B7B5B3;
+}
+
+@media (max-width: 320px) {
+    .authentication__login {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .authentication__password {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .authentication {
+        display: grid;
+        grid-template-columns: minmax(300px, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .authentication__form {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+}
